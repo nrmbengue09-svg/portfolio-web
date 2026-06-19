@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html" class="active">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Mes Réalisations</h1>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <img src="images/projet1.jpg" alt="Capture du site du restaurant" class="project-img">
+                <h3>Site Web d'un Restaurant en Ligne</h3>
+                <p>Développement complet d'une interface de présentation des menus et de commande pour un restaurant.</p>
+                <p><strong>Technologies :</strong> HTML5, CSS3, Terminal Git, GitHub</p>
+                <div class="project-more-info hidden">
+                    <p>Ce projet m'a permis d'apprendre à utiliser le terminal Git pour la gestion des versions à travers ses commandes fondamentales (git init, git add, git commit). Nous avons ensuite connecté notre dépôt local à GitHub (git remote, git push) afin de centraliser le code et de déployer le site en ligne de manière professionnelle.</p>
+                </div>
+                <button class="btn btn-more">Voir plus</button>
+            </div>
+
+            <div class="project-card">
+                <img src="images/projet2.jpg" alt="Histogramme de la distribution des notes" class="project-img">
+                <h3>Analyse Statistique des Notes Scolaires</h3>
+                <p>Réalisation d'une étude statistique descriptive sur les résultats des étudiants afin d'analyser les performances.</p>
+                <p><strong>Technologies :</strong> Mathématiques, Statistiques & Probabilités, Excel / Python</p>
+                <div class="project-more-info hidden">
+                    <p>Application concrète des concepts de statistiques et probabilités vus en cours : traitement des données, calcul des moyennes, variances, et création d'un histogramme de distribution pour visualiser la répartition globale des notes des élèves.</p>
+                </div>
+                <button class="btn btn-more">Voir plus</button>
+            </div>
+
+            <div class="project-card">
+                <img src="images/projet3.jpg" alt="Capture d'écran du code Python" class="project-img">
+                <h3>Algorithme Éducatif en Python</h3>
+                <p>Développement d'un script Python interactif et simple (type mini-jeu de logique ou calcul numérique) adapté aux enfants.</p>
+                <p><strong>Technologies :</strong> Python (Variables, Boucles, Conditions if/else)</p>
+                <div class="project-more-info hidden">
+                    <p>Ce projet naturel de première année pose les bases de l'algorithmique. Le programme interagit directement avec l'utilisateur dans le terminal, vérifie la validité de ses réponses grâce à des structures conditionnelles, calcule et affiche un score final à la fin de la session.</p>
+                </div>
+                <button class="btn btn-more">Voir plus</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
